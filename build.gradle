@@ -16,9 +16,12 @@ repositories {
 
 dependencies {
     // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter
-    testImplementation: 'org.junit.jupiter:junit-jupiter:5.6.0'
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.6.0'
+
     // https://mvnrepository.com/artifact/com.codeborne/selenide
-    testImplementation: 'com.codeborne:selenide:5.10.0'
+    compile group: 'com.codeborne', name: 'selenide', version: '5.3.1'
+
+
 
 
 }
